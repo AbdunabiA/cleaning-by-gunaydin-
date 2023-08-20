@@ -26,6 +26,12 @@
             display: flex;
             align-items: center;
         }
+        .flex_left{
+            @include sm{
+                display: flex;
+                justify-content: center;
+            }
+        }
         .flex_right{
             position: relative;
             @include sm{
