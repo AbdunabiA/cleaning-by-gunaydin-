@@ -1,6 +1,6 @@
 import Title from 'components/ui/title'
 import im1 from 'assets/images/TeamImg1.png'
-import im2 from "assets/images/TeamImg2.png";
+import im2 from "assets/images/Teamimg2.png";
 import im3 from "assets/images/TeamImg3.png";
 import im4 from "assets/images/TeamImg4.png";
 import leftBladder from "assets/images/OurServicesLeftBladder.png";
