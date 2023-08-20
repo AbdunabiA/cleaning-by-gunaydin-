@@ -1,0 +1,122 @@
+footer{
+    background: $blueFooter;
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 48px 0px;
+        @include sm{
+            padding: 11px 0px 40px 0px;
+            gap: 20px;
+        }
+        .footer__logo_wrapper{
+            .phone-icons{
+                display: none;
+                @include sm{
+                    display: flex;
+                    margin-top: 5px;
+                    &>a{
+                        width: 29px;
+                        background: white;
+                        border-radius: 100%;
+                        padding: 4px;
+                    }
+                }
+                & img{
+                    object-fit: contain;
+                }
+            }
+            @include sm{
+                width: 100px;
+                
+            }
+        }
+        &>div:nth-child(1)>img{
+            object-fit: contain;
+        }
+        &>div, &>nav{
+            width: 100%;
+        }
+        .footer__nav{
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 110%;
+            @include sm{
+                display: none;
+            }
+        }
+        &>div:nth-child(4)>div>button{
+            white-space: nowrap;
+        }
+        .footer__nav>ul{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding-left: 40px;
+        }
+        &>div:nth-child(3){
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            @include sm{
+                flex-direction: row;
+            }
+            &>div{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+            
+            p:nth-child(odd){
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 120%;
+                @include sm{
+                    font-size: 10px;
+                }
+            }
+            p:nth-child(even){
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 120%;
+                @include sm{
+                    font-size: 10px;
+                }
+            }
+            &>p:nth-child(3){
+                margin-top: 12px;
+            }
+        }
+        &>div:nth-child(4){
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 27px;
+            @include sm{
+                display: none;
+            }
+        }
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        &>a{
+            background-color: white;
+            width: 45px;
+            height: 45px;
+            border-radius: 100%;
+            padding: 7px;
+            transition: .3s;
+            &:hover{
+                background: $green;
+            }
+        }
+        & img{
+            object-fit: contain;
+        }
+
+        
+    }
+    
+}

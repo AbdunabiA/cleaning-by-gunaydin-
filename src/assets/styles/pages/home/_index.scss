@@ -1,0 +1,11 @@
+.bg{
+    background-image: url('src/assets/images/bgImg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2246px;
+    width: 100%;
+    @include sm{
+        background-image: url('src/assets/images/phoneBg.png');
+        height: 1442px;
+    }
+}

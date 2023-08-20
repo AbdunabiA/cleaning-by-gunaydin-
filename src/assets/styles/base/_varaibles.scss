@@ -1,0 +1,26 @@
+// @font-face {
+//    font-family: 'Manrope';
+//    src: url("../../fonts/Manrope-Regular.ttf") format("truetype");
+// }
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;  
+$xxxl:1600px;
+$xxxxl:1920px;
+
+$main-font: 'Manrope', sans-serif;
+
+$bluePrimary:#00CBFF;
+$blueSecondary:rgba(147, 206, 255, 0.78);
+$blueFooter:rgba(214, 243, 255, 1);
+$cardBlue:rgba(181, 238, 247, 1);
+$green:#65E700;
+$black:#000000;
+
+:root{
+    --main-bg:rgb(255, 255, 255);
+    --main-text-color:#000000;
+}
