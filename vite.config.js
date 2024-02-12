@@ -9,8 +9,8 @@ export default defineConfig({
     react(),
     jsconfigPaths(),
     compression({
-      algorithm: "brotliCompress",
-      exclude: [/\.(br)$/, /\.(gz)$/],
+      // algorithm: "brotliCompress",
+      // exclude: [/\.(br)$/, /\.(gz)$/],
       deleteOriginalAssets: true,
     }),
     ViteImageOptimizer(),
